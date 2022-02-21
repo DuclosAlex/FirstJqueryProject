@@ -49,8 +49,8 @@ $(function() {
     animateItem = function($item, toOpen, speed) {
 
         var $colorImage = $item.find(".color"), 
-        itemParam = toOpen ? {width: "420px"}: {width:"140px"}, 
-        colorImageParam = toOpen ? {left: "0px"}: {left:"140px"};
+        itemParam = toOpen ? {width: "480px"}: {width:"200px"}, 
+        colorImageParam = toOpen ? {left: "0px"}: {left:"200px"};
         $colorImage.animate(colorImageParam, speed);
         $item.animate(itemParam, speed);
         

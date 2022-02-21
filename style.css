@@ -8,11 +8,14 @@ ul, ol {
 }
 
 body {
-    background: #bfbfbf url('images/background.jpg') repeat-x;
+    background: white url('images/Fond.jpg');
     font-family: Arial, sans-serif;
 }
 header {
     padding: 30px 0;
+    background-color: black;
+    border-bottom: 2px gold solid;
+    border-top: 2px solid gold;
 }
 header h1 {
     font-size: 40px; 
@@ -26,65 +29,62 @@ header h1 {
 /* MAIN-MENU */
 
 #main-menu ul {
-    width : 980px; 
+    width : 1280px; 
     height: 500px;
     margin : 0 auto; 
     padding-top: 148px; 
 }
 
 #main-menu ul li {
-
     position : relative; 
-    float : left; 
-    width: 140px; 
-    height : 500px;
+    float: left;
+    width : 200px; 
+    height : 500px; 
     overflow : hidden; 
-    
 }
 
 .bw {
-    position : absolute;
-    left: 0px;
-    width : 140px; 
-    height: 500px; 
-    cursor : pointer; 
-    background : url('images/bw-image.jpg') no-repeat; 
-    opacity: 0.7;
+    position : absolute; 
+    left: 0px; 
+    width : 200px;
+    height : 500px; 
+    cursor: pointer;
+    background: url('images/FilmBW.jpg');
 }
 
 .color {
-
-    position : absolute;
-    left : 140px; 
-    width : 140px; 
-    height: 500px; 
+    position: absolute;
+    left : 200px; 
+    width : 200px;
+    height : 500px; 
     cursor : pointer; 
-    background : url('images/color-image.jpg') no-repeat; 
+    background: url('images/FilmColor.png');
+    opacity : 0.8;
 }
 
 #part2 div {
-    background-position : -140px 0px; 
+    background-position : -200px 0px; 
 }
 
 #part3 div {
-    background-position : -280px 0px; 
+    background-position : -400px 0px; 
 }
 
 #part4 div {
-    background-position : -420px 0px; 
+    background-position : -600px 0px; 
 }
 
 #part5 div {
-    background-position : -560px 0px; 
+    background-position : -800px 0px; 
 }
 
 .description {
     position : absolute; 
-    left: 140px;
+    left: 200px;
     width: 240px; 
     height : 460px; 
     padding : 20px;
-    background: #fff;;
+    background: linear-gradient(55deg, black, grey)
 }
 
 .description h2 {
@@ -92,7 +92,8 @@ header h1 {
     font-size : 30px; 
     font-family: 'Limelight', sans-serif;
     text-align : center; 
-    color : #333; 
+    color : gold; 
+    text-shadow: 2px 1px 1px red;
     text-transform: uppercase;
 }
 
@@ -111,10 +112,12 @@ header h1 {
 .description p {
     padding-top : 35px; 
     font-size : 22px; 
-    color: #000; 
+    color: gold; 
+    text-shadow: 2px 1px 1px red;
     text-align: center; 
     font-family: 'Lobster', sans-serif;
 }
+
 
 /* Buttons-Menu */
 
@@ -135,18 +138,19 @@ header h1 {
 
     float: left; 
     width : 150px; 
+    height: 60px;
     margin-left: 30px; 
-    padding: 10px 0; 
+    padding: 20px 0 5px;; 
     position : relative; 
     right: 50%;
-    text-shadow: 1px 1px 1px #000;
+    text-shadow: 1px 1px 1px red;
     font-family: 'Lobster', sans-serif;
     text-align: center;
-    color : #fff; 
+    color : gold; 
     border-radius : 5px; 
     box-shadow : 4px 4px 4px rgba(0,0,0,0.75);
-    background: #333;
-    border: 2px solid #b70000;
+    background: black;
+    border: 2px solid gold;
     font-size : 22px; 
     cursor : pointer;
     opacity : 0.9;
